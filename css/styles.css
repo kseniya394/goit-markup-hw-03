@@ -1,0 +1,289 @@
+:root {
+    --primary-black-color: #434455;
+    --button-color: #4d5ae5;
+    --background-color-button: #F4F4FD;
+    --background-color: #FFFFFF;
+    --logo-text-color: #4d5ae5;
+    --header-logo-span-color: #2e2f42;
+    --footer-logo-span-color: #f4f4fd;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+link {
+    text-decoration: none;
+}
+.list {list-style: none;}
+.link {text-decoration: none}
+
+/* header */
+body { font-family: "Roboto", sans-serif; 
+    color: var(--primary-black-color);
+    background-color: var(--background-color);
+}
+
+button { cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-nav {
+}
+.header-logo { 
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--logo-text-color);
+}
+.header-logo-black { 
+    color: var(--header-logo-span-color);
+}
+
+.header-list {
+}
+.header-item {
+}
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #2E2F42;
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
+}
+
+.address {
+font-style: normal;
+}
+
+.address-list {
+}
+
+.address-list-item {
+
+}
+.address-list-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #434455;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+    color: #404bbf;
+}
+
+/* hero style */
+.main {
+}
+.section {
+}
+.hero {
+    background-color: #2E2F42;
+}
+.hero-tittle {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/* section solutions */
+
+.section {
+}
+.solutions {
+}
+.solutions-title {
+}
+.solutions-list {
+}
+.solutions-list-item {
+}
+.solutions-list-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.solutions-list-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* section tasks */
+
+.section {
+}
+.tasks {
+}
+.tasks-title {
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.tasks-list {
+}
+.tasks-list-item {
+}
+.tasks-list-img {
+}
+
+/* section team */
+
+.section {
+}
+.team {
+background: #F4F4FD;
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.team-list {
+}
+.team-list-item {
+    background: #FFFFFF;
+}
+.team-list-img {
+}
+.team-list-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;  
+}
+.team-list-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer {
+background-color: #2E2F42;
+}
+.footer-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+color: var(--logo-text-color);
+}
+
+.footer-logo-white { 
+color: var(--footer-logo-span-color);
+}
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+/* portfolio */
+
+.section-projects {
+}
+.projects-filters {
+}
+.projects-filters-item {
+}
+
+.filter-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--button-color);
+background-color: var(--background-color-button);
+border: 1px solid #E7E9FC;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+/* projects */
+
+.projects-list {
+}
+.projects-list-item {
+border: 1px solid #E7E9FC;
+}
+.projects-list-img {
+}
+.projects-list-tittle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.projects-list-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-black-color);
+}
