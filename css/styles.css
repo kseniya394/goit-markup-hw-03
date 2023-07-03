@@ -30,7 +30,6 @@ link {
 .list {list-style: none;}
 .link {text-decoration: none}
 
-/* header */
 body { font-family: "Roboto", sans-serif; 
     color: var(--primary-black-color);
     background-color: var(--background-color);
@@ -40,9 +39,40 @@ button { cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+width: 1188px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+outline: 5px solid red;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* header */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header-nav {
+    display: flex;
+    align-items: center;
 }
 .header-logo { 
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -58,6 +88,9 @@ button { cursor: pointer;
 }
 
 .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .header-item {
 }
@@ -79,6 +112,9 @@ font-style: normal;
 }
 
 .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .address-list-item {
@@ -100,10 +136,11 @@ color: #434455;
 /* hero style */
 .main {
 }
-.section {
-}
+
 .hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 .hero-tittle {
     font-weight: 700;
@@ -129,15 +166,16 @@ background-color: #4D5AE5;
 
 /* section solutions */
 
-.section {
-}
-.solutions {
-}
 .solutions-title {
 }
 .solutions-list {
+    width: 1128px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 .solutions-list-item {
+    width: 264px;
 }
 .solutions-list-name {
 font-weight: 500;
@@ -185,7 +223,7 @@ color: #2E2F42;
 background: #F4F4FD;
 }
 .team-title {
-font-weight: 700;
+font-weight: 700px;
 font-size: 36px;
 text-align: center;
 line-height: 1.11;
@@ -217,6 +255,8 @@ color: #434455;
 
 .footer {
 background-color: #2E2F42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 .footer-logo {
 font-family: "Raleway", sans-serif;
