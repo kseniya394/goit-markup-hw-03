@@ -76,7 +76,6 @@ justify-content: space-between;
 .header-nav {
 display: flex;
 align-items: center;
-padding: 24px 0;
 }
 .header-logo { 
 display: flex;
@@ -102,7 +101,10 @@ align-items: center;
 gap: 40px;
 }
 .header-item {
+display: block;
+padding: 24px 0;
 }
+
 .header-link {
 font-weight: 500;
 font-size: 16px;
@@ -248,9 +250,9 @@ margin-bottom: 72px;
 .tasks-list {
 display: flex;
 gap: 24px;
-width: calc((100% - 48px) / 3);
 }
 .tasks-list-item {
+width: calc((100% - 48px) / 3);
 }
 .tasks-list-img {
 }
@@ -402,8 +404,7 @@ border: 1px solid #E7E9FC;
 }
 
 .projects-container {
-padding: 32px 16px;
-border: 1px solid #e7e9fc; 
+padding: 32px 16px; 
 border-top: none;
 }
 
