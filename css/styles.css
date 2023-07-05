@@ -160,6 +160,8 @@ color: #434455;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .hero-btn {
 display: block;
